@@ -18,3 +18,12 @@ function whileLoop(n) {
     return "done";
   }
 }
+
+function doWhileLoop(arr) {
+  function maybeTrue() {
+    return Math.random() >= 0.5
+  }
+  do (arr.length - 1) {
+    while (maybeTrue() || arr.length > 0)
+  }
+}
