@@ -24,6 +24,6 @@ function doWhileLoop(arr) {
     return Math.random() >= 0.5
   }
   do (arr.length - 1) {
-    while (maybeTrue() || arr.length > 0)
+    while (maybeTrue() && arr.length > 0)
   }
 }
